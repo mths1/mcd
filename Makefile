@@ -1,5 +1,5 @@
 .PHONY: all get-deps compile clean test-unit test-ct check distclean
-REBAR := $(shell which ./rebar || which rebar)
+REBAR := $(shell which ./rebar3 || which rebar3)
 
 PROJECTNAME=mcd
 PROJECTVERSION=1.1.0
